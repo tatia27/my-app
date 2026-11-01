@@ -1,0 +1,54 @@
+.task {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 14px;
+  background-color: #1e1e1e;
+  border: 1px solid #2a2a2a;
+  border-radius: 6px;
+  gap: 12px;
+
+  &.completed {
+    opacity: 0.55;
+
+    .name {
+      text-decoration: line-through;
+      color: #777777;
+    }
+  }
+}
+
+.label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.checkbox {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
+.name {
+  font-size: 14px;
+  color: #ffffff;
+  word-break: break-word;
+}
+
+.deleteBtn {
+  padding: 6px 12px;
+  background-color: transparent;
+  color: #888888;
+  border: 1px solid #333333;
+  border-radius: 4px;
+  font-size: 12px;
+  cursor: pointer;
+
+  &:hover {
+    color: #ffffff;
+    background-color: #2a2a2a;
+    border-color: #555555;
+  }
+}

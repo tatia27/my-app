@@ -1,0 +1,26 @@
+.filters {
+  display: flex;
+  gap: 8px;
+}
+
+.filterBtn {
+  flex: 1;
+  padding: 8px 12px;
+  background-color: #1e1e1e;
+  color: #888888;
+  border: 1px solid #333333;
+  border-radius: 6px;
+  font-size: 13px;
+  cursor: pointer;
+
+  &:hover {
+    color: #ffffff;
+    border-color: #555555;
+  }
+
+  &.active {
+    background-color: #2e2e2e;
+    color: #ffffff;
+    border-color: #666666;
+  }
+}
